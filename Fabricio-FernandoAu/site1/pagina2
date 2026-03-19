@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina2</title>
+</head>
+
+<body>
+    <center>
+        <h1>Pessoas importantes para o desenvolvimento da internet</h1>
+    </center>
+    <center>
+        <h2>O desenvolvimento da internet foi resultado do trabalho de várias pessoas ao longo de décadas. Nos anos
+            1960, J. C. R. Licklider teve a visão de uma rede global de computadores. Em seguida, Vint Cerf e Robert
+            Kahn criaram o protocolo TCP/IP, que permite a comunicação entre redes diferentes. Já nos anos 1990, Tim
+            Berners-Lee desenvolveu a World Wide Web, facilitando o acesso à informação por meio de navegadores. Além
+            deles, Paul Baran e Donald Davies contribuíram com a ideia de comutação de pacotes, essencial para o
+            funcionamento da internet. Essas contribuições, entre outras, foram fundamentais para a criação da internet
+            como conhecemos hoje.</h2>
+    </center>
+    <img src="imagem.jpg" alt="Descrição da imagem" width="500" height="300">
+</body>
+
+</html>

@@ -13,7 +13,7 @@ HTTPS
 
 Encontre um elemento HTML da página.
 
-Há elementos como <div
+Há elementos como <div>
 
 Copie um pequeno trecho do HTML encontrado.
 

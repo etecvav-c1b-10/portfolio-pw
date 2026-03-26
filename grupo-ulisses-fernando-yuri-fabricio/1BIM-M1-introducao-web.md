@@ -12,9 +12,11 @@ Qual protocolo está sendo utilizado (HTTP ou HTTPS)?
 HTTPS
 
 Encontre um elemento HTML da página.
+
 Há elementos como <div
 
 Copie um pequeno trecho do HTML encontrado.
+
 body > div.page-layout__main
 
 Questão 4 (Feito por Fernando Augusto):

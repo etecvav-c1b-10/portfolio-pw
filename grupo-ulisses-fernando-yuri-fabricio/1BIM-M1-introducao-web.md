@@ -11,8 +11,8 @@ Qual protocolo está sendo utilizado (HTTP ou HTTPS)?
 
 HTTPS
 
-Encontre um elemento HTML da página (por exemplo <h1>, <p> ou <div>).
-Há elementos como <div>
+Encontre um elemento HTML da página.
+Há elementos como <div
 
 Copie um pequeno trecho do HTML encontrado.
 body > div.page-layout__main

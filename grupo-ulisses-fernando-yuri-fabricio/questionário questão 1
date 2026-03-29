@@ -8,4 +8,4 @@ Qual é a diferença entre HTTP e HTTPS
 A maior diferença é a segurança, o HTTPS é uma versão melhorada e mais segura do HTTP, enquanto o HTTP utiliza a porta 80 e não requer certificados de segurança, o HTTPS utiliza a porta 443 e requer um certificado SSL/TLS, que autentica o site e estabelece uma conexão segura.
 
 Por que o HTTPS é importante para a segurança na Web
-Por que ele criptografa as comunicações entr o usuário ee o servidor, protegendo dados importantes como cartões de crédito e informações pessoais.
+Por que ele criptografa as comunicações entre o usuário e o servidor, protegendo dados importantes como cartões de crédito e informações pessoais.

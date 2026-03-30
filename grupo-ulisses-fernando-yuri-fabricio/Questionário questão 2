@@ -1,8 +1,8 @@
-## Questionário questão 2
+# Questionário questão 2
 Feito por: Ulisses Spinelli Sassoli Costa
-# Qual é o papel do navegador
+## Qual é o papel do navegador
 O navegador é a ponte que conecta você à internet, interpreta os codigos da web e transforma tudo isso em paginas visuais e interativas
-# Qual é o papel do servidor web
+## Qual é o papel do servidor web
 O servidor Web guarda informações, recebe o pedido das informações pelo navegador, prepara elas se for preciso, e então entrega para o navegador e o navegador interpreta e renderiza
-# Como ocorre a comunicação entre eles quando um usuário acessa o site.
+## Como ocorre a comunicação entre eles quando um usuário acessa o site.
 Primeiro o navegador vai pedir para o servidor web as informações necessarias para acessar o site, então o servidor vai pegar as informações e vai processar elas, se for preciso,então ele vai entregar as informações para o navegador que vai ler, interpretar e renderizar as informações como um site

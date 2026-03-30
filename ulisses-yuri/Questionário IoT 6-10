@@ -1,0 +1,22 @@
+## Questionário Questões 6-10
+## Feito Por Yuri Pereira
+
+Questão 6  
+Pensa num sistema de luz automática com sensor de presença. Alguém passa pelo ambiente, o sensor percebe o movimento e avisa o microcontrolador, que liga a lâmpada ou o LED na hora. Se ninguém fica por ali por um tempo, a luz apaga sozinha, sem você precisar se preocupar. Com isso, a gente economiza energia e o dia a dia fica mais prático.
+
+Questão 7  
+Agora, se você coloca um botão junto ao circuito do LED, quem está usando assume o controle. Apertou o botão, fecha o circuito, o LED acende. Soltou, o circuito abre de novo e o LED apaga. No código, o sistema só precisa checar se o botão está pressionado ou não e responde conforme o que a pessoa faz.
+
+Questão 8  
+O movimento maker muda completamente a forma como a gente aprende tecnologia porque incentiva todo mundo a colocar a mão na massa. Não fica só na teoria: você monta, testa, erra, acerta, aprende de verdade. Esse processo puxa a criatividade, a autonomia, faz pensar de um jeito crítico e ajuda a resolver problemas que surgem de verdade. E, pra ser sincero, tudo fica mais divertido e inesquecível assim.
+
+Questão 9  
+Num sistema automático de irrigação, sensores e atuadores trabalham juntos pra manter o solo sempre com a quantidade certa de água. O sensor de umidade checa se a terra está seca. Quando isso acontece, ele sinaliza pro sistema, que liga um atuador—geralmente uma bomba de água—e começa a irrigação. Assim que a umidade volta ao ideal, o sistema desliga tudo e não desperdiça água.
+
+Questão 10  
+Quando você mexe num projeto pronto em simuladores como o Wokwi ou o Tinkercad, dá pra mudar parâmetros e ver o resultado de imediato. Por exemplo, num circuito que faz o LED piscar: se você reduz o intervalo entre liga e desliga, percebe na hora que o LED começa a piscar mais rápido. Pequenas mudanças no código ou nos componentes já dão pra sentir como mexem em todo o funcionamento do sistema.
+
+
+
+
+

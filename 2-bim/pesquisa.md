@@ -2,7 +2,7 @@
 
 ## CSS significa Cascading Style Sheets (Folhas de Estilo em Cascata). É uma linguagem usada para definir a aparência e o layout de páginas web.
 
-## Enquanto o HTML estrutura o conteúdo (texto, imagens, botões), o CSS controla como esse conteúdo será exibido — por exemplo:
+Enquanto o HTML estrutura o conteúdo (texto, imagens, botões), o CSS controla como esse conteúdo será exibido — por exemplo:
 
 - Cores (texto, fundo)
 - Fontes e tamanhos de texto
@@ -17,15 +17,15 @@ p {
   font-size: 16px;
 }
 
-## Nesse exemplo, todos os parágrafos (p) ficarão com texto azul e tamanho de 16 pixels.
+Nesse exemplo, todos os parágrafos (p) ficarão com texto azul e tamanho de 16 pixels.
 
 ## Por que “cascata”?
 
-## O termo “cascading” (cascata) se refere à forma como o CSS decide qual estilo aplicar quando há múltiplas regras — ele segue uma ordem de prioridade.
+O termo “cascading” (cascata) se refere à forma como o CSS decide qual estilo aplicar quando há múltiplas regras — ele segue uma ordem de prioridade.
 
 # formato do CSS
 
-## O formato do CSS segue uma estrutura bem definida chamada de regra CSS. Ela é composta basicamente por seletor + declaração.
+O formato do CSS segue uma estrutura bem definida chamada de regra CSS. Ela é composta basicamente por seletor + declaração.
 
 ## Estrutura básica:
 
@@ -73,7 +73,7 @@ p {
 
 # tipos de CSS
 
-## Existem 3 tipos principais de CSS, que diferem pela forma como você aplica o estilo na página:
+Existem 3 tipos principais de CSS, que diferem pela forma como você aplica o estilo na página:
 
 ## 1. CSS Inline (na própria linha) - É aplicado diretamente na tag HTML.
 
@@ -127,9 +127,9 @@ p {
 
 
 
-# in-line
+# In-line
 
-## O CSS inline é um tipo de CSS aplicado diretamente dentro da tag HTML, usando o atributo style.
+O CSS inline é um tipo de CSS aplicado diretamente dentro da tag HTML, usando o atributo style.
 
 ## Exemplo:
 
@@ -158,7 +158,7 @@ p {
 
 ## Importante:
 
-## O CSS inline tem alta prioridade, ou seja: Ele geralmente sobrescreve CSS interno e externo
+O CSS inline tem alta prioridade, ou seja: Ele geralmente sobrescreve CSS interno e externo
 
 ## Quando usar?
 
@@ -166,11 +166,11 @@ p {
 - Testes
 - Situações específicas
 
-## Em projetos reais, o ideal é usar CSS externo.
+Em projetos reais, o ideal é usar CSS externo.
 
-# in-folder
+# In-folder
 
-## É o CSS escrito dentro do HTML, na seção <head>.
+É o CSS escrito dentro do HTML, na seção <head>.
 
 ## Exemplo:
 
@@ -224,9 +224,9 @@ p {
 - Testes rápidos
 
 
-# external
+# External
 
-## É o CSS que fica em um arquivo separado (.css), ligado ao HTML.
+#É o CSS que fica em um arquivo separado (.css), ligado ao HTML.
 
 ## Exemplo:
 
@@ -278,7 +278,7 @@ p {
 
 ## Quando usar?
 
-## Sempre que possível — é a melhor prática.
+Sempre que possível — é a melhor prática.
 
 ## Resumo geral dos 3
 

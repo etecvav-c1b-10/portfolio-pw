@@ -23,7 +23,7 @@ Nesse exemplo, todos os parágrafos (p) ficarão com texto azul e tamanho de 16 
 
 O termo “cascading” (cascata) se refere à forma como o CSS decide qual estilo aplicar quando há múltiplas regras — ele segue uma ordem de prioridade.
 
-# formato do CSS
+# Formato do CSS
 
 O formato do CSS segue uma estrutura bem definida chamada de regra CSS. Ela é composta basicamente por seletor + declaração.
 
@@ -71,7 +71,7 @@ p {
 - Cada propriedade termina com ;
 - CSS não usa = (usa :)
 
-# tipos de CSS
+# Tipos de CSS
 
 Existem 3 tipos principais de CSS, que diferem pela forma como você aplica o estilo na página:
 

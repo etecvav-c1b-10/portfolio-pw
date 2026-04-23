@@ -1,6 +1,6 @@
-# definicao de CSS
+# Definição de CSS
 
-## CSS significa Cascading Style Sheets (Folhas de Estilo em Cascata). É uma linguagem usada para definir a aparência e o layout de páginas web.
+CSS significa Cascading Style Sheets (Folhas de Estilo em Cascata). É uma linguagem usada para definir a aparência e o layout de páginas web.
 
 Enquanto o HTML estrutura o conteúdo (texto, imagens, botões), o CSS controla como esse conteúdo será exibido — por exemplo:
 

@@ -17,15 +17,59 @@ p {
   font-size: 16px;
 }
 
-## Nesse exemplo, todos os parágrafos (<p>) ficarão com texto azul e tamanho de 16 pixels.
+## Nesse exemplo, todos os parágrafos (p) ficarão com texto azul e tamanho de 16 pixels.
 
 ## Por que “cascata”?
 
 ## O termo “cascading” (cascata) se refere à forma como o CSS decide qual estilo aplicar quando há múltiplas regras — ele segue uma ordem de prioridade.
 
-
-
 # formato do CSS
+
+## O formato do CSS segue uma estrutura bem definida chamada de regra CSS. Ela é composta basicamente por seletor + declaração.
+
+## Estrutura básica:
+
+ seletor {
+  propriedade: valor;
+}
+
+## Exemplo:
+
+ h1 {
+  color: red;
+  font-size: 24px;
+}
+
+## Nesse caso:
+
+- h1 = seletor (define qual elemento será estilizado)
+- color e font-size = propriedades
+- red e 24px = valores
+
+## Partes do CSS
+- Seletor → indica o elemento (ex: p, h1, .classe, #id)
+- Propriedade → o que você quer mudar (ex: color, margin)
+- Valor → como vai mudar (ex: blue, 10px)
+
+/* seletor de elemento */
+p {
+  color: blue;
+}
+
+/* classe */
+.minha-classe {
+  background-color: yellow;
+}
+
+/* id */
+#meu-id {
+  font-size: 20px;
+}
+
+## Regras importantes
+- Sempre usar { } para abrir e fechar o bloco
+- Cada propriedade termina com ;
+- CSS não usa = (usa :)
 
 # tipos de CSS
 

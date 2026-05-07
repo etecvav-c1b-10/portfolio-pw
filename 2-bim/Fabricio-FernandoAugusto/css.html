@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>O que é CSS</title> 
+</head>
+<body>
+    <style> body {
+         background-color:#ADD8E6 ; }
+
+         h1 { 
+            color: #3b3b3b; 
+        text-align: center;}  
+         h2 {
+            text-align: center;
+         }  
+         div {
+            text-align: center;
+         }
+         h3 {
+            text-align: center;
+            font-size: large;
+         }
+         .container {
+            display: flex;
+            align-items:center;
+            gap: 20px;
+         }
+         .img {
+            max-width: 100px;
+         }
+         .destaque {
+            text-align: center;
+            font-size: x-large;
+            text-decoration: underline;
+         }
+         .seletor {
+            font-size:larger;
+            text-align: center;
+         }
+         .propriedades {
+            text-align: center;
+            font-size: larger;
+         }
+         .valores {
+         text-align: center;
+         font-size: large;
+         }
+         .exemplos {
+            text-align: center;
+            font-size: x-large;
+            text-decoration: underline;
+         }
+
+
+         table {
+            width: 40%;
+            border-collapse: collapse;
+            margin: auto;
+         }
+         th,td {
+            border: 1px solid #3b3b3b;
+            padding: 8px;
+            text-align: left;
+            color: black;
+         }
+         tr {
+            background-color: #5F9EA0;
+         }
+         th {
+            text-align: center;
+            background-color: #AFEEEE;
+            color: DodgerBlue;
+         }
+            
+    </style>
+    
+    <h1>Essa pagina irá falar sobre o CSS a seguir:</h1>
+    <hr color="black" width="750" size="3">
+    </div>
+    <div class="container">
+        <img src="CSS3_Logo.PNG-removebg-preview.png" style="width: 280px;">
+        <p><h3>CSS é a sigla para Cascading Style Sheets, que em português significa “Folhas de Estilo em Cascata”. Ele é uma das principais tecnologias usadas na construção de páginas da web, junto com HTML.
+            <br>
+            <br>
+            Ou seja, o CSS é responsável por <i>toda a parte visual e estética de um site</i>. Sem CSS, as páginas existiriam, mas seriam bem simples, com aparência básica e pouco atraente.
+        </h3></p>
+      </div>
+      <p class="destaque">Como o CSS funciona?</p>
+      <h3>O CSS funciona aplicando regras de estilo aos elementos HTML. Essas regras são compostas por:
+        <br>
+        <br>
+        <i>Seletores</i>(Indicam qual elemento será estilizado.)
+        <br>
+        <br>
+        <i>Propriedades</i>(O que você quer mudar.)
+        <br>
+        <br>
+        <i>Valores</i>(Como você quer que fique.)
+      </h3>
+      <hr color="darkblue" width="450" size="2">
+      <br>
+      <p class="destaque">O que é um seletor?</p>
+      <h3>Um seletor é a parte da regra CSS que “aponta” para um ou mais elementos da página.</h3>
+      <hr color="dimgrey" width="350"size="2">
+      <p class="seletor">1. Seletor de elemento (ou tag):</p>
+      <h3>Seleciona todos os elementos de um tipo.</h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">2. Seletor de classe:</p>
+      <h3>Muito usado. Permite estilizar vários elementos com a mesma classe.</h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">3. Seletor de ID:</p>
+      <h3>Seleciona um elemento único (idealmente só um por página)</h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">4. Seletor universal:</p>
+      <h3>Seleciona <i>todos os elementos.</i></h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">5. Seletor descendente:</p>
+      <h3>Seleciona elementos dentro de outros.</h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">6. Seletor filho direto:</p>
+      <h3>Seleciona apenas filhos diretos.</h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">7. Seletores de atributo:</p>
+      <h3>Selecionam elementos com base em atributos</h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">8. Pseudo-classes:</p>
+      <h3>Definem estados especiais dos elementos</h3>
+      <hr color="silver" width="300" size="1">
+      <p class="seletor">9. Pseudo-elementos:</p>
+      <h3>Estilizam partes específicas de um elemento</h3>
+      <hr color="dimgrey" width="450" size="3">
+      <p class="destaque">Especificidade (quem “vence”?)</p>
+      <p class="seletor">Se dois seletores tentarem estilizar o mesmo elemento, o CSS usa uma regra chamada <i>especificidade.</i></p>
+      <p class="seletor">Especificidade (specificity) no CSS é a regra que decide qual estilo será aplicado quando vários estilos tentam modificar o mesmo elemento.
+
+         O CSS calcula uma “força” para cada seletor.
+         Quanto mais específico ele for, maior a prioridade.</p>
+         <br>
+         <hr color="darkblue" width="550" size="3">
+      <h2>O que são propriedades?</h2>
+      <p class="propriedades">Propriedades são características que você quer modificar em um elemento.</p>
+      <table>
+         <tr>
+           <th>color</th>
+           <th>background-color</th>
+           <th>font-size</th>
+           <th>width</th>
+           <th>height</th>
+           <th>margin</th>
+           <th>padding</th>
+           <th>border</th>
+           <th>display</th>
+           <th>position</th>
+         </tr>
+         <tr>
+           <td>cor do texto</td>
+           <td>cor de fundo</td>
+           <td>tamanho da fonte</td>
+           <td>largura</td>
+           <td>altura</td>
+           <td>espaço externo</td>
+           <td>espaço interno</td>
+           <td>borda</td>
+           <td>tipo de exibição</td>
+           <td>posicionamento</td>
+         </tr>
+       </table>
+       <br>
+       <hr color="black" width="850" size="4">
+       <br>
+       <br>
+     <h2>O que são valores?</h2>
+     <p class="valores">Valores definem como a propriedade será aplicada.</p>
+     <p class="exemplos">Exemplo:</p>
+     <center><img src="download.png" width="180"></center>
+     <h3>Os valores aqui são:
+      <br>
+      -Green
+      <br>
+      -18px
+      <br>
+      -50%
+      <br>
+      -flex
+     </h3>
+     <hr color="black" width="400" size="3">
+     <br>
+     <h2>Tipos de valores no CSS:</h2>
+     <h3>1. Cores</h3>
+     <center><img src="cores.png" width="150"></center>
+     <h3>2. Tamanhos</h3>
+     <center><img src="tamanhos.png" width="150"></center>
+     <h3>3. Texto</h3>
+     <center><img src="texto.png" width="150"></center>
+     <h3>4. Layout</h3>
+     <center><img src="display.png" width="150"></center>
+     <br>
+     <hr color="black" width="550" size="3">
+     <br>
+     <h2>CSS em cascata:</h2>
+     <h3>O nome “Cascading” significa que o CSS segue prioridades.</h3>
+     <p class="exemplos">Exemplo:</p>
+     <center><img src="css_cascata.png" width="180"></center>
+     <br>
+     <hr color="navy" width="650" size="5">
+     <h2>Formas de usar CSS:</h2>
+     <h2>1. Inline</h2>
+     <center><img src="inline.png" width="300"></center>
+     <h2>2. Interno</h2>
+     <center><img src="interno.png" width="150"></center>
+     <h2>3. Externo (mais usado)</h2>
+     <center><img src="externo.png" width="350"></center>
+    </html>

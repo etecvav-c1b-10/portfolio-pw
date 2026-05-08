@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oque é CSS</title>
+</head>
+
+<body>
+
+    <style>
+        th td {
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        table {
+            text-align: center;
+            font-style: italic;
+
+            padding-top: 25px;
+            padding-bottom: 10px;
+
+            color: rgb(92, 92, 92);
+
+        }
+
+        body {
+            font-family: Arial;
+
+            background-color: rgb(152, 222, 250);
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <table border="1" cellpadding="10" border-scale="100%" style="width: 100%;">
+        <tr>
+            <th>
+                <h1 style="color: rgb(11, 11, 131);"> CSS </h1>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="imagem1.png" alt="" width="300px" srcset="">
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <h1 style="color: rgb(11, 11, 131);"> Oque é o CSS? </h1>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <h2>
+                    CSS (Cascading Style Sheets) é uma linguagem usada para estilizar páginas web e melhorar a aparência
+                    visual dos sites. Ele trabalha junto com o HTML: enquanto o HTML define a estrutura da página, como
+                    títulos, parágrafos, imagens e botões, o CSS é responsável pela parte visual, como cores, tamanhos,
+                    fontes, espaçamentos, alinhamentos e organização do layout.
+                </h2>
+
+                <h2>
+                    Com o CSS, é possível deixar um site mais bonito, organizado e agradável para o usuário. Além disso,
+                    ele permite criar animações, efeitos visuais e páginas responsivas, que se adaptam a diferentes
+                    tamanhos de tela, como celulares, tablets e computadores. Dessa forma, o CSS é essencial no
+                    desenvolvimento web moderno, pois ajuda a transformar páginas simples em interfaces mais
+                    profissionais e atrativas.
+                </h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <h1 style="color: rgb(11, 11, 131);"> Porque ele foi criado? </h1>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <h2> O CSS foi criado para separar o conteúdo visual da estrutura das páginas web. Antes dele, o HTML
+                    era usado tanto para organizar o conteúdo quanto para definir a aparência do site, o que deixava o
+                    código confuso, repetitivo e difícil de manter.
+                </h2>
+
+                <h2>
+                    Com a criação do CSS, tornou-se possível controlar cores, fontes, tamanhos, espaçamentos e layouts
+                    em um arquivo separado do HTML. Isso facilitou o desenvolvimento de sites, deixando as páginas mais
+                    organizadas, rápidas e fáceis de editar.
+                </h2>
+
+                <h2>
+                    Além disso, o CSS permitiu criar páginas mais bonitas, responsivas e padronizadas, melhorando a
+                    experiência dos usuários em computadores, celulares e outros dispositivos. Hoje, ele é uma das
+                    principais tecnologias do desenvolvimento web, trabalhando junto com HTML e JavaScript.
+                </h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <h1 style="color: rgb(11, 11, 131);"> Exemplos do CSS </h1>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <h2>
+                    <span style="color: rgb(11, 11, 131)"> Seletores: </span> Os seletores indicam qual elemento do HTML
+                    será estilizado. Exemplo:
+                </h2>
+
+                <img src="imagem2.png" alt="" srcset="">
+
+                <h2>
+                    Nesse caso, o seletor é <span style="color: rgb(11, 11, 131);">p</span>, que representa os
+                    parágrafos da página. Exemplo:
+                </h2>
+
+                <h2>
+                    <span style="color: rgb(11, 11, 131);"> Propriedades: </span> As propriedades definem o que será
+                    alterado no elemento. No exemplo acima a propriedade é:
+                </h2>
+
+                <img src="imagem3.png" alt="" srcset="">
+
+                <h2>
+                    Ela serve para mudar a cor do texto.
+                </h2>
+
+                <h2>
+                    <span style="color: rgb(11, 11, 131);"> Valores: </span> Os valores definem como a propriedade será
+                    aplicada. Exemplo:
+                </h2>
+
+                <img src="imagem4.png" alt="" srcset="">
+
+                <h2>
+                    No exemplo acima, é o valor da propriedade <span style="color: rgb(11, 11, 131);"> color. </span>
+                </h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <h1 style="color: rgb(11, 11, 131);"> Estrutura básica do CSS </h1>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+
+                <img src="imagem5.png" alt="" srcset="">
+
+                <h2>
+                    <span style="color: rgb(11, 11, 131);"> h1 </span> = Seletor
+                </h2>
+
+                <h2>
+                    <span style="color: rgb(11, 11, 131);"> font-size </span> e <span style="color: rgb(11, 11, 131);">
+                        color </span> = Propriedades
+                </h2>
+
+                <h2>
+                    <span style="color: rgb(11, 11, 131);"> 30px </span> e <span style="color: rgb(11, 11, 131);"> red
+                    </span> = Valores
+                </h2>
+
+                <table border="1"
+                    style="width: 80%; margin: auto; background-color: rgb(6, 100, 138); color: rgb(0, 174, 255)">
+                    <tr>
+                        <th> <span style="color: rgb(11, 11, 131);"> Elemento </span> </th>
+                        <th> <span style="color: rgb(11, 11, 131);"> Função no CSS </span> </th>
+                        <th> <span style="color: rgb(11, 11, 131);"> Exemplo </span> </th>
+                        <th> <span style="color: rgb(11, 11, 131);"> Explicação </span> </th>
+                    </tr>
+                    <tr>
+                        <td> Seletor </td>
+                        <td> Define qual elemento será estilizado </td>
+                        <td> p </td>
+                        <td> Seleciona todos os parágrafos </td>
+                    </tr>
+                    <tr>
+                        <td> Propriedade </td>
+                        <td> Define o que será alterado </td>
+                        <td> color </td>
+                        <td> Altera a cor do texto </td>
+                    </tr>
+                    <tr>
+                        <td> Valor </td>
+                        <td> Define como a propriedade será aplicada </td>
+                        <td> blue </td>
+                        <td> Define a cor azul </td>
+                    </tr>
+                    <tr>
+                        <td> Declaração </td>
+                        <td> Conjunto de propriedade + valor </td>
+                        <td> color: blue; </td>
+                        <td> Aplica a cor azul ao elemento </td>
+                    </tr>
+                    <tr>
+                        <td> Regra CSS </td>
+                        <td> Conjunto completo de estilização </td>
+                        <td> p { color: blue; } </td>
+                        <td> Estiliza os parágrafos em azul </td>
+                    </tr>
+                    <tr>
+                        <td> Comentário </td>
+                        <td> Serve para explicar o código </td>
+                        <td> /* comentário */ </td>
+                        <td> Não aparece no site </td>
+                    </tr>
+                    <tr>
+                        <td> Classe </td>
+                        <td> Estiliza elementos específicos </td>
+                        <td> .titulo </td>
+                        <td> Aplica estilo em elementos com classe </td>
+                    </tr>
+                    <tr>
+                        <td> ID </td>
+                        <td> Estiliza um elemento único </td>
+                        <td> #menu </td>
+                        <td> Aplica estilo em um único elemento </td>
+                    </tr>
+                    <tr>
+                        <td> Responsividade </td>
+                        <td> Adapta o site a diferentes telas </td>
+                        <td> @media </td>
+                        <td> Ajusta o layout para celular e tablet </td>
+                    </tr>
+                    <tr>
+                        <td> Animação </td>
+                        <td> Cria movimentos e efeitos visuais </td>
+                        <td> animation </td>
+                        <td> Faz elementos se moverem ou mudarem </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <h1 style="color: rgb(11, 11, 131);"> Resumo Final </h1>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <h2>
+                    CSS (Cascading Style Sheets) é uma linguagem usada para estilizar páginas web, trabalhando junto com
+                    o HTML. Enquanto o HTML organiza a estrutura da página, o CSS define a aparência visual, como cores,
+                    fontes, tamanhos, espaçamentos e layouts.
+                </h2>
+
+                <h2>
+                    No CSS, existem três partes principais: os seletores, que escolhem o elemento que será estilizado;
+                    as propriedades, que definem o que será alterado; e os valores, que indicam como essa alteração será
+                    aplicada. A estrutura básica do CSS é formada por:
+                </h2>
+
+                <h2>
+                    Além de deixar os sites mais bonitos e organizados, o CSS também permite criar animações, efeitos
+                    visuais e páginas responsivas, adaptadas para celulares, tablets e computadores. Por isso, ele é uma
+                    das principais tecnologias do desenvolvimento web moderno.
+                </h2>
+            </td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>

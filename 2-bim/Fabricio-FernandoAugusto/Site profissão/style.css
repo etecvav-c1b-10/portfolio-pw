@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+header {
+    width: 95%;
+    background-color: #222;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+h1 {
+
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    text-decoration: none;
+    scale: 140%;
+    margin-left: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    background: linear-gradient(135deg, #f0f0f0 0%, #949494 100%);
+}
+.botao-estilizado:hover {
+    background-color: #838383;
+}
+.botao-estilizado:active {
+    transform: scale(0.9);
+}
+input[type="submit"], input[type="button"] {
+    cursor: pointer;
+}

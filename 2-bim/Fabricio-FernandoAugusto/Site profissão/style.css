@@ -1,9 +1,11 @@
 body {
+    margin: 0;
     background-color: white;
 }
 
+
 header {
-    width: 95%;
+    width: 100%;
     background-color: #222;
     color: white;
 
@@ -11,31 +13,51 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 50px;
+    padding: 20px 40px;
+
+    box-sizing: border-box;
 }
+
 
 h1 {
-
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
-button {
+
+.botao-estilizado {
+
     text-decoration: none;
-    scale: 140%;
-    margin-left: 25px;
-    background-color: white;
-    border: none;
-    border-radius: 4px;
+
+    padding: 12px 22px;
+    margin-left: 15px;
+
+    border-radius: 10px;
+
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
     display: inline-block;
-    background: linear-gradient(135deg, #f0f0f0 0%, #949494 100%);
+
+    transition: all 0.3s ease;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
 .botao-estilizado:hover {
-    background-color: #838383;
+
+    background: linear-gradient(135deg, #339cff 0%, #00d0db 100%);
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
 }
+
+
 .botao-estilizado:active {
-    transform: scale(0.9);
-}
-input[type="submit"], input[type="button"] {
-    cursor: pointer;
+    transform: scale(0.96);
 }

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color: rgb(211, 211, 211);
     font-family: 'Poppins', sans-serif;
 }
 header {
@@ -61,7 +61,7 @@ main {
 
     padding: 25px 30px;
 
-    margin: 30px auto;
+    margin: 20px auto;
 
     max-width: 800px;
 

@@ -1,0 +1,43 @@
+Atividade – WAI-ARIA
+Questão 1 – Conceito
+
+1. WAI-ARIA (Web Accessibility Initiative – Accessible Rich Internet Applications) é um conjunto de atributos que pode ser utilizado no HTML para fornecer informações adicionais sobre a estrutura, o estado e a função dos elementos de uma interface web.
+
+Sua principal finalidade é melhorar a acessibilidade de aplicações e páginas web, principalmente quando determinados componentes ou comportamentos dinâmicos não podem ser adequadamente descritos apenas com HTML semântico.
+
+Os principais beneficiados são pessoas com deficiência, especialmente usuários que utilizam leitores de tela, como pessoas cegas ou com baixa visão. Esses recursos também podem auxiliar usuários com outras limitações que dificultem a interação ou a compreensão de interfaces digitais.
+
+Questão 2 – Interpretação
+
+2.
+
+a) Qual é a função do atributo aria-controls?
+
+O atributo aria-controls indica qual elemento da página é controlado pelo componente atual. Nesse exemplo, aria-controls="menuPrincipal" informa que o botão está relacionado ao elemento que possui o id="menuPrincipal".
+
+Isso ajuda as tecnologias assistivas a compreenderem a relação entre o botão e o conteúdo que ele controla.
+
+b) O que informa o atributo aria-expanded?
+
+O atributo aria-expanded informa se o elemento controlado está expandido ou recolhido.
+
+aria-expanded="false" indica que o menu está fechado/recolhido.
+aria-expanded="true" indicaria que o menu está aberto/expandido.
+
+Quando o estado do menu muda, esse valor deve ser atualizado para representar corretamente o estado atual da interface.
+
+c) Qual é a importância do atributo aria-label para usuários que utilizam leitores de tela?
+
+O aria-label fornece um nome acessível ao elemento, permitindo que o leitor de tela informe ao usuário qual é a finalidade daquele controle.
+
+No exemplo, aria-label="Abrir menu" comunica que o botão tem a função de abrir o menu. Isso é especialmente importante quando o texto visível do botão não é suficientemente descritivo ou quando é necessário fornecer uma identificação específica para tecnologias assistivas.
+
+Questão 3 – Reflexão
+
+3. O WAI-ARIA não substitui o HTML semântico porque o HTML já possui elementos com funções e comportamentos acessíveis incorporados, como <button>, <nav>, <main>, <header> e <form>. Sempre que um elemento HTML nativo atende à necessidade da interface, ele deve ser priorizado, pois oferece suporte de acessibilidade sem a necessidade de atributos ARIA adicionais.
+
+O WAI-ARIA deve ser utilizado como um complemento, principalmente em componentes mais complexos ou dinâmicos, nos quais o HTML semântico sozinho não consegue comunicar adequadamente o estado ou a relação entre os elementos para as tecnologias assistivas.
+
+Um exemplo é um menu de navegação que pode ser aberto e fechado por um botão. O elemento <button> já é semanticamente adequado para representar o controle, mas atributos como aria-expanded podem informar se o menu está aberto ou fechado, enquanto aria-controls pode indicar qual elemento é controlado pelo botão.
+
+Dessa forma, o WAI-ARIA amplia as informações disponíveis para tecnologias assistivas, enquanto o HTML semântico continua sendo a base da estrutura acessível da página.

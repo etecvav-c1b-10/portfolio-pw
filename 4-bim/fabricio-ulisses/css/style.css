@@ -1,0 +1,176 @@
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+    background: linear-gradient(135deg, #171717, #303030);
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #171717;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #555555;
+}
+
+header h1 {
+    color: #E5E5E5;
+}
+
+/* CONTEÚDO */
+main {
+    padding: 20px;
+}
+
+.painel {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #454545;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.painel-claro {
+    background-color: #383838;
+    color: #E5E5E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(160, 158, 158, 0.3);
+}
+
+/* SONY - AZUL */
+.painel-sony {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #454545;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 140, 255, 0.7);
+}
+
+.painel-claro-sony {
+    background-color: #383838;
+    color: #E5E5E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 140, 255, 0.7);
+}
+
+/* UBISOFT - ROXO */
+.sombra-ubisoft {
+    box-shadow: 0px 4px 10px rgba(155, 89, 182, 0.8);
+}
+
+/* ROCKSTAR - AMARELO */
+.sombra-rockstar {
+    box-shadow: 0px 4px 10px rgba(241, 196, 15, 0.8);
+}
+
+/* NINTENDO - VERMELHO */
+.sombra-nintendo {
+    box-shadow: 0px 4px 10px rgba(230, 0, 18, 0.8);
+}
+
+/* MICROSOFT - VERDE */
+.sombra-microsoft {
+    box-shadow: 0px 4px 10px rgba(0, 166, 81, 0.8);
+}
+
+/* EFEITO NOS PAINÉIS */
+.painel:hover {
+    transform: translateY(-5px);
+}
+
+/* TÍTULOS */
+.titulo-secao {
+    color: #D4D4D4;
+    border-bottom: 2px solid #A6A6A6;
+    padding-bottom: 8px;
+}
+
+/* TABELAS */
+.tabela-container {
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th {
+    background-color: #404040;
+    color: #F5F5F5;
+}
+
+.tabela td {
+    background-color: #292929;
+    color: #E5E5E5;
+}
+
+.tabela th,
+.tabela td {
+    padding: 12px;
+    border: 1px solid #555555;
+    text-align: left;
+}
+
+/* EFEITO NAS LINHAS DA TABELA */
+.tabela tr:hover td {
+    background-color: #454545;
+}
+
+/* LISTAS */
+.lista {
+    color: #E5E5E5;
+    line-height: 1.8;
+}
+
+/* BOTÕES */
+.btn-ciano {
+    text-align: center;
+    background-color: #A6A6A6;
+    color: #171717;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-ciano:hover {
+    background-color: #E5E5E5;
+    transform: translateY(-3px);
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #171717;
+    color: #BFBFBF;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #555555;
+}
+
+/* ANIMAÇÃO DE ENTRADA */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header, main, footer {
+    animation: aparecer 0.7s ease both;
+}
